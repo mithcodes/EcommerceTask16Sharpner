@@ -1,0 +1,92 @@
+.auth {
+    margin: 3rem auto;
+    width: 95%;
+    max-width: 25rem;
+    border-radius: 6px;
+    background-color: grey;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .auth h1 {
+    text-align: center;
+    color: white;
+    padding: 10px;
+  }
+  
+  .control {
+    margin-bottom: 0.5rem;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  .control label {
+    display: block;
+    color: rgb(71, 71, 71);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .control input {
+    font: inherit;
+    background-color: #f1e1fc;
+    color: #38015c;
+    border-radius: 4px;
+    border: 1px solid rgb(71, 71, 71);
+    width: 100%;
+    text-align: left;
+    padding: 0.25rem;
+  }
+  
+  .actions {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .actions button {
+    cursor: pointer;
+    font: inherit;
+    color: white;
+    background-color: rgb(71, 71, 71);
+    border: 1px solid rgb(50, 50, 50);
+    border-radius: 4px;
+    padding: 0.5rem 2.5rem;
+  }
+  
+  .actions button:hover {
+    background-color: rgb(71, 71, 71);
+    border-color: rgb(50, 50, 50);
+  }
+  
+  .actions .toggle {
+    margin-top: 1rem;
+    background-color: transparent;
+    color: rgb(71, 71, 71);
+    border: none;
+    padding: 0.15rem 1.5rem;
+  }
+  
+  .actions .toggle:hover {
+    background-color: transparent;
+    color: rgb(71, 71, 71);
+  }
+  
+  .btn {
+    margin-top: 1rem;
+    background-color: #16b401;
+    border: 1px solid rgb(50, 50, 50);
+    color: white;
+  
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 0.5rem;
+  }
+  .btn:hover {
+    background-color: #118a01;
+  }
+  form {
+    background-color: white;
+    padding: 15px;
+  }
